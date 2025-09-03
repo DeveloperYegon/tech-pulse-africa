@@ -18,14 +18,12 @@ const Header = () => {
             <div className="flex h-10 w-10 items-center justify-center rounded-lg gradient-primary">
               <Zap className="h-6 w-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-gradient">TechPulse Africa</span>
+            <span className="text-xl font-bold text-gradient">TechPulse</span>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="text-sm font-medium hover:text-primary transition-colors">
-              Home
-            </Link>
+         
             {categories.slice(0, 4).map((category) => (
               <Link
                 key={category.id}
@@ -52,11 +50,12 @@ const Header = () => {
                 className="w-64 pl-10"
               />
             </div>
+
             <Button variant="outline" className="hidden sm:inline-flex">
               Login
             </Button>
             <Button className="hidden sm:inline-flex gradient-primary text-white">
-              Subscribe
+              Join Newsletter
             </Button>
 
             {/* Mobile menu button */}
@@ -85,9 +84,7 @@ const Header = () => {
                 />
               </div>
               <nav className="flex flex-col space-y-2">
-                <Link to="/" className="py-2 text-sm font-medium">
-                  Home
-                </Link>
+              
                 {categories.map((category) => (
                   <Link
                     key={category.id}

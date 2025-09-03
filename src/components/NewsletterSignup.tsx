@@ -54,7 +54,7 @@ const NewsletterSignup = () => {
                   
                   <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
                     Join 25,000+ tech professionals and entrepreneurs who rely on our daily digest 
-                    for the latest breakthroughs in African technology and global innovation.
+                    for the latest breakthroughs in technology and global innovation.
                   </p>
 
                   {/* Benefits */}
@@ -114,14 +114,14 @@ const NewsletterSignup = () => {
                   </h2>
                   
                   <p className="text-lg text-white/90 mb-8">
-                    Thank you for subscribing! Check your email for a confirmation link and get ready 
-                    to stay ahead of Africa's tech revolution.
+                    Thank you for subscribing! Keep an Eye on your email and get ready 
+                    to stay ahead of world's tech revolution.
                   </p>
 
                   <Button 
                     onClick={() => setIsSubscribed(false)}
                     variant="outline"
-                    className="border-white/30 text-white hover:bg-white/10"
+                    className="border-white/30 text-black hover:bg-black/10"
                   >
                     Subscribe Another Email
                   </Button>

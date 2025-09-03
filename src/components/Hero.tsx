@@ -25,69 +25,32 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
-          {/* Badge */}
-          <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md rounded-full px-4 py-2 mb-6 border border-white/20">
-            <Sparkles className="h-4 w-4 text-accent" />
-            <span className="text-sm font-medium">Latest Tech News from Africa & Beyond</span>
-          </div>
+    
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight">
-            Discover the
-            <span className="block text-gradient bg-gradient-to-r from-accent via-white to-primary-glow bg-clip-text text-transparent">
-              Future of Tech
-            </span>
-            in Africa
+            Discover the Future of Technology
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg sm:text-xl lg:text-2xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed">
             Stay ahead with cutting-edge technology news, emerging trends, and innovation stories 
-            shaping Africa's digital transformation.
+            shaping the world's digital transformation.
           </p>
 
-          {/* Stats */}
-          <div className="flex flex-wrap justify-center gap-8 mb-10">
-            <div className="flex items-center space-x-2">
-              <TrendingUp className="h-5 w-5 text-accent" />
-              <span className="text-sm font-medium">10K+ Daily Readers</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Globe className="h-5 w-5 text-accent" />
-              <span className="text-sm font-medium">54 African Countries</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Sparkles className="h-5 w-5 text-accent" />
-              <span className="text-sm font-medium">Breaking Tech Stories</span>
-            </div>
-          </div>
-
-          {/* Newsletter Signup */}
-          <div className="max-w-md mx-auto mb-8">
-            <div className="flex flex-col sm:flex-row gap-3">
-              <Input
-                type="email"
-                placeholder="Enter your email for daily updates"
-                className="bg-white/10 backdrop-blur-md border-white/20 text-white placeholder:text-white/70 flex-1"
-              />
-              <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-6">
-                Get Updates
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-            </div>
-            <p className="text-xs text-white/70 mt-2">Join 25,000+ tech professionals. Unsubscribe anytime.</p>
-          </div>
+      
+    
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="gradient-primary text-white font-semibold px-8">
+            <Button size="lg" className="gradient-primary text-white font-bold px-8">
               Explore Latest News
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-white/30 text-white hover:bg-white/10 backdrop-blur-md"
+              className="border-white/30 text-black hover:bg-white/10 backdrop-blur-md"
             >
               Learn About Us
             </Button>

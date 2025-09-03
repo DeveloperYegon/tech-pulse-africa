@@ -5,7 +5,7 @@ import ArticleCard from '@/components/ArticleCard';
 import CategoryFilter from '@/components/CategoryFilter';
 import NewsletterSignup from '@/components/NewsletterSignup';
 import { Button } from '@/components/ui/button';
-import { TrendingUp, Clock, Users, Globe } from 'lucide-react';
+import { TrendingUp, Clock, Users, Globe,Zap } from 'lucide-react';
 import { articles } from '@/data/mockData';
 
 const Index = () => {
@@ -152,16 +152,16 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center">
             <div className="flex justify-center items-center space-x-2 mb-4">
-              <div className="h-8 w-8 rounded gradient-primary flex items-center justify-center">
-                <span className="text-white font-bold text-sm">TP</span>
-              </div>
-              <span className="text-xl font-bold text-gradient">TechPulse Africa</span>
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg gradient-primary">
+              <Zap className="h-6 w-6 text-white" />
+            </div>
+              <span className="text-xl font-bold text-gradient">TechPulse</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md mx-auto">
-              Connecting Africa to the future of technology, one story at a time.
+              Connecting you to the future of technology, one story at a time.
             </p>
             <div className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} TechPulse Africa. All rights reserved.
+              © {new Date().getFullYear()} TechPulse. All rights reserved.
             </div>
           </div>
         </div>
