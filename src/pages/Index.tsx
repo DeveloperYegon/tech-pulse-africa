@@ -161,7 +161,7 @@ const Index = () => {
               Connecting you to the future of technology, one story at a time.
             </p>
             <div className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} TechPulse. All rights reserved.
+              &copy; {new Date().getFullYear()} TechPulse. All rights reserved.
             </div>
           </div>
         </div>

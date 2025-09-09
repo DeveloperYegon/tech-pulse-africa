@@ -75,7 +75,7 @@ export const articles: Article[] = [
     publishDate: '2024-01-11',
     category: 'Biotech',
     imageUrl: '/placeholder.svg',
-    featured: false,
+    featured: true,
     readTime: 9,
     tags: ['Biotech', 'Gene Therapy', 'Research', 'Medical Innovation']
   },

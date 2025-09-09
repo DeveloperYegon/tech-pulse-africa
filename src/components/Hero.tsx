@@ -52,7 +52,7 @@ const Hero = () => {
               variant="outline" 
               className="border-white/30 text-black hover:bg-white/10 backdrop-blur-md"
             >
-              Learn About Us
+              <span className="font-bold">Learn About Us</span>
             </Button>
           </div>
         </div>
